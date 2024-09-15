@@ -1,0 +1,33 @@
+configurar PATH -> 
+
+set PATH=%PATH%;C:\Program Files\PostgreSQL\13\include    
+
+set PATH=%PATH%;C:\Program Files\PostgreSQL\13\bin   
+
+
+rodar em Live c/ Cabal ->
+
+cabal v2-repl
+
+abrir o Windows Explorer pesquisar por ph_hba.conf
+
+C:\Program Files\PostgreSQL\13\data
+
+alterar todos os valores de sha.... para trust
+
+CTRL + SHIFT + ESC
+
+reiniciar o PC
+
+Adicionar as variaveis no PATH tanto do usuario como do sistema
+
+‪C:\Program Files\PostgreSQL\13\bin
+C:\Program Files\Haskell\bin
+C:\Program Files\PostgreSQL\13\include
+
+
+
+
+
+
+
